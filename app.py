@@ -8,7 +8,8 @@ def main():
     key = st.text_input("Secret Key")
     category = st.selectbox('category', ('mobile', 'pc', 'others', 'ai-ml', 'tech', 'gaming'))
     max_ = st.text_input('Count', 'all')
-
+    if max_ != 'all':
+        max_ = int(max_)
     url_others = None
     if category == "others":
         url_others = st.text_input('url', 'Other URl RSS')
