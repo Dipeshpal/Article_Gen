@@ -14,10 +14,11 @@ def main():
         url_others = st.text_input('url', 'Other URl RSS')
 
     if st.button("Generate"):
-        print(key, secrets)
         st.success(key)
         st.success(secrets)
-        if key != secrets:
+        st.success(category)
+        st.success(max_)
+        if key != secrets[0]:
             st.success("Invalid Key")
             print("Invalid Key")
         else:
