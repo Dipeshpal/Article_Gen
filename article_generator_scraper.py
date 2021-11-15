@@ -1,5 +1,4 @@
 import random
-
 import newspaper
 from datetime import datetime
 import articles_management

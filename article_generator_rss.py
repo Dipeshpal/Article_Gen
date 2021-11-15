@@ -1,6 +1,5 @@
 import json
 import mysql.connector as MySQLdb
-from CONSTANT import *
 import xmltodict
 import requests
 import os
@@ -55,9 +54,9 @@ def make_data(record):
     return username, title, description, tags, thumbnail, post
 
 
-def log_record(link):
+def log_record(link, db_user, db_pass, db_host, db_database):
     db = MySQLdb.connect(user=db_user, password=db_pass,
-                         host=db_host, database=db_database)
+                                  host=db_host, database=db_database)
     try:
         cursor = db.cursor()
         cursor.execute(
@@ -77,7 +76,8 @@ def log_record(link):
         return True, f"Log Created: {link}"
 
 
-def start(url="https://gadgets.ndtv.com/rss/android/feeds", category="others", max=1):
+def start(url="https://gadgets.ndtv.com/rss/android/feeds", category="others", max=1,
+          db_user=None, db_pass=None, db_host=None, db_database=None):
     if not category in ['mobile', 'pc', 'others', 'ai-ml', 'tech', 'gaming']:
         return "Category not in- 'mobile', 'pc', 'others', 'ai-ml', 'tech', 'gaming'"
 
@@ -92,13 +92,14 @@ def start(url="https://gadgets.ndtv.com/rss/android/feeds", category="others", m
         try:
             username, title, description, tags, thumbnail, post = make_data(record)
             print(record['link'])
-            obj = articles_management.Articles()
+            obj = articles_management.Articles(db_user, db_pass, db_host, db_database)
             status, msg = obj.create_post_by_parser(username=username, title=title, description=description,
                                                     tags=tags, category=category,
                                                     thumbnail=thumbnail, post=post)
             print(status, msg)
             if status:
-                _, log_msg = log_record(record['link'])
+                _, log_msg = log_record(record['link'], db_user=db_user, db_pass=db_pass, db_host=db_host,
+                                              db_database=db_database)
                 print(log_msg)
                 count += 1
         except Exception as e:
@@ -106,3 +107,18 @@ def start(url="https://gadgets.ndtv.com/rss/android/feeds", category="others", m
     return f"{count} Article Created Successfully"
 
 
+if __name__ == "__main__":
+    category = "mobile"
+    max_ = 1
+    dict_of_url = {
+        "mobile": "https://gadgets.ndtv.com/rss/android/feeds",
+        "pc": "https://gadgets.ndtv.com/rss/laptops/feeds",
+        "gaming": "https://gadgets.ndtv.com/rss/games/feeds",
+        "tech": "https://gadgets.ndtv.com/rss/how-to/feeds",
+        "ai-ml": "https://www.techrepublic.com/rssfeeds/topic/artificial-intelligence/",
+        # "others": url_others,
+    }
+    url = dict_of_url[category]
+
+    msg = start(url=url, category=category, max=max_)
+    print(msg)

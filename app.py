@@ -3,11 +3,16 @@ import article_generator_rss
 
 
 def main():
+    db_user = st.secrets["db_user"]
+    db_pass = st.secrets["db_pass"]
+    db_host = st.secrets["db_host"]
+    db_database = st.secrets["db_database"]
+    secrets = st.secrets["secrets"]
+
     st.title('Article Generator')
-    secrets = st.secrets["secrets"],
     key = st.text_input("Secret Key")
     category = st.selectbox('category', ('mobile', 'pc', 'others', 'ai-ml', 'tech', 'gaming'))
-    max_ = st.text_input('Count', 'all')
+    max_ = st.text_input('Count', 5)
     if max_ != 'all':
         max_ = int(max_)
     url_others = None
@@ -15,11 +20,8 @@ def main():
         url_others = st.text_input('url', 'Other RSS URl')
 
     if st.button("Generate"):
-        # st.success(key)
-        # st.success(secrets)
-        # st.success(category)
-        # st.success(max_)
-        if key != secrets[0]:
+        st.success(key + str(max_))
+        if key != secrets:
             st.success("Invalid Key")
             print("Invalid Key")
         else:
@@ -32,7 +34,9 @@ def main():
                 "others": url_others,
             }
             url = dict_of_url[category]
-            msg = article_generator_rss.start(url=url, category=category, max=max_)
+            msg = article_generator_rss.start(url=url, category=category, max=max_,
+                                              db_user=db_user, db_pass=db_pass, db_host=db_host,
+                                              db_database=db_database)
             st.success(msg)
             print(msg)
 

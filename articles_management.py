@@ -1,18 +1,17 @@
 import mysql.connector as MySQLdb
-from CONSTANT import *
 from datetime import datetime
 
 
 class Articles:
-    def __init__(self):
+    def __init__(self, db_user, db_pass, db_host, db_database):
         self.db = MySQLdb.connect(user=db_user, password=db_pass,
                                   host=db_host, database=db_database)
-        # print("Connection Established")
+        print("Connection Established")
 
     def __del__(self):
         try:
             self.db.close()
-            # print("Connection closed")
+            print("Connection closed")
         except ImportError as e:
             print(e)
 
