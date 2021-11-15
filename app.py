@@ -4,7 +4,7 @@ import article_generator_rss
 
 def main():
     st.title('Article Generator')
-    secrets = st.secrets["Secret"],
+    secrets = st.secrets["secrets"],
     key = st.text_input("Secret Key", "")
     category = st.selectbox('category', ('mobile', 'pc', 'others', 'ai-ml', 'tech', 'gaming'))
     max_ = st.text_input('Count', 'all')
