@@ -16,7 +16,10 @@ def main():
         else:
             dict_of_url = {
                 "mobile": "https://gadgets.ndtv.com/rss/android/feeds",
-                "pc": "https://gadgets.ndtv.com/rss/laptops/feeds"
+                "pc": "https://gadgets.ndtv.com/rss/laptops/feeds",
+                "gaming": "https://gadgets.ndtv.com/rss/games/feeds",
+                "tech": "https://gadgets.ndtv.com/rss/how-to/feeds",
+                "ai-ml": "https://www.techrepublic.com/rssfeeds/topic/artificial-intelligence/"
             }
             url = dict_of_url[category]
             msg = article_generator_rss.start(url=url, category=category, max=max_)

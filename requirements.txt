@@ -3,3 +3,4 @@ starkbank-ecdsa==1.1.0
 mysql-connector-python
 streamlit
 xmltodict
+newspaper3k
