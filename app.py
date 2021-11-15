@@ -12,13 +12,13 @@ def main():
         max_ = int(max_)
     url_others = None
     if category == "others":
-        url_others = st.text_input('url', 'Other URl RSS')
+        url_others = st.text_input('url', 'Other RSS URl')
 
     if st.button("Generate"):
-        st.success(key)
-        st.success(secrets)
-        st.success(category)
-        st.success(max_)
+        # st.success(key)
+        # st.success(secrets)
+        # st.success(category)
+        # st.success(max_)
         if key != secrets[0]:
             st.success("Invalid Key")
             print("Invalid Key")
