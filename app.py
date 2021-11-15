@@ -1,0 +1,29 @@
+import streamlit as st
+import article_generator_rss
+
+
+def main():
+    st.title('Article Generator')
+    secrets = st.secrets["Secret"],
+    key = st.text_input("Secret Key", "")
+    category = st.selectbox('category', ('mobile', 'pc', 'others', 'ai-ml', 'tech', 'gaming'))
+    max_ = st.text_input('Count', 'all')
+
+    if st.button("Generate"):
+        if key != secrets:
+            st.success("Invalid Key")
+            print("Invalid Key")
+        else:
+            dict_of_url = {
+                "mobile": "https://gadgets.ndtv.com/rss/android/feeds",
+                "pc": "https://gadgets.ndtv.com/rss/laptops/feeds"
+            }
+            url = dict_of_url[category]
+            msg = article_generator_rss.start(url=url, category=category, max=max_)
+            st.success(msg)
+            print(msg)
+
+
+if __name__ == '__main__':
+    main()
+
