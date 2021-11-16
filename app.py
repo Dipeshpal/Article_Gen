@@ -39,7 +39,17 @@ def main():
             st.success(msg)
             print(msg)
 
+    import time
+    st.write("## Hello")
+    b = st.empty()
+    ''' 
+    Starts at 0 since you don't see the first value
+    '''
+    for i in range(0, 4):
+        b.text(i)
+        time.sleep(0.5)
 
+        
 if __name__ == '__main__':
     main()
 
