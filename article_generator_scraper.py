@@ -3,7 +3,8 @@ import newspaper
 from datetime import datetime
 import articles_management
 import nltk
-nltk.download()
+import os
+os.system("python -m nltk.downloader all")
 
 
 def parse(sites):
