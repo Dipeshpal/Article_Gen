@@ -2,7 +2,7 @@ import streamlit as st
 import article_generator_rss
 import nltk
 
-nltk.download('./punkt')
+nltk.download('punkt')
 
 
 def main():
