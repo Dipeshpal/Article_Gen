@@ -88,7 +88,7 @@ class Articles:
             cursor.execute(sql,
                            [username, title, description, tags, category, thumbnail, post, date, author, link])
             self.db.commit()
-            return True, "Post Created"
+            return True, f"Post Created: {link}"
         except Exception as e:
             print(e)
             return False, f"Unable to Update Post. Error: {e}"
