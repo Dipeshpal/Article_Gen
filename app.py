@@ -1,5 +1,8 @@
 import streamlit as st
 import article_generator_rss
+import nltk
+
+nltk.download('./punkt')
 
 
 def main():
@@ -52,4 +55,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-

@@ -2,8 +2,7 @@ import random
 import newspaper
 from datetime import datetime
 import articles_management
-import nltk
-nltk.download('punkt')
+
 
 
 def parse(sites):
