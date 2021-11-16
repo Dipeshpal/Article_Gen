@@ -5,6 +5,7 @@ import requests
 import os
 import articles_management
 from newspaper import Article
+import streamlit as st
 
 
 def fetch_rss(url):
@@ -86,6 +87,7 @@ def start(url="https://gadgets.ndtv.com/rss/android/feeds", category="others", m
 
     data = fetch_rss(url)
     data = data['rss']['channel']['item'][:max]
+    st.write("Status-")
 
     count = 0
     for record in data:
@@ -97,11 +99,18 @@ def start(url="https://gadgets.ndtv.com/rss/android/feeds", category="others", m
                                                     tags=tags, category=category,
                                                     thumbnail=thumbnail, post=post)
             print(status, msg)
+            a = st.empty()
+            a.text(msg)
+
             if status:
                 _, log_msg = log_record(record['link'], db_user=db_user, db_pass=db_pass, db_host=db_host,
                                               db_database=db_database)
                 print(log_msg)
                 count += 1
+
+                b = st.empty()
+                b.text(log_msg)
+
         except Exception as e:
             print(e)
     return f"{count} Article Created Successfully"
