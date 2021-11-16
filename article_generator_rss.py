@@ -90,6 +90,9 @@ def start(url="https://gadgets.ndtv.com/rss/android/feeds", category="others", m
     st.write("Status-")
 
     count = 0
+    a = st.empty()
+    b = st.empty()
+
     for record in data:
         try:
             username, title, description, tags, thumbnail, post = make_data(record)
@@ -99,7 +102,6 @@ def start(url="https://gadgets.ndtv.com/rss/android/feeds", category="others", m
                                                     tags=tags, category=category,
                                                     thumbnail=thumbnail, post=post)
             print(status, msg)
-            a = st.empty()
             a.text(msg)
 
             if status:
@@ -108,7 +110,6 @@ def start(url="https://gadgets.ndtv.com/rss/android/feeds", category="others", m
                 print(log_msg)
                 count += 1
 
-                b = st.empty()
                 b.text(log_msg)
 
         except Exception as e:
