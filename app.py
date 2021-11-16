@@ -20,7 +20,6 @@ def main():
         url_others = st.text_input('url', 'Other RSS URl')
 
     if st.button("Generate"):
-        st.success(key + str(max_))
         if key != secrets:
             st.success("Invalid Key")
             print("Invalid Key")
