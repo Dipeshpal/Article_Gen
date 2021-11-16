@@ -4,3 +4,4 @@ mysql-connector-python
 streamlit
 xmltodict
 newspaper3k
+nltk
