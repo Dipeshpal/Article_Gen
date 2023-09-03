@@ -1,41 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="56b573e0-e4a5-48f0-abcc-33c098dd4537" name="Default Changelist" comment="" />
+    <list default="true" id="ed843b3c-4a2a-4eab-a24b-bcf84dc3cf1c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CONSTANT.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/a.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/article_generator_rss.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/article_generator_scraper.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/articles_management.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/punkt/PY3/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/punkt/PY3/czech.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/punkt/PY3/danish.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/punkt/PY3/dutch.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/punkt/PY3/english.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/punkt/PY3/estonian.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/punkt/PY3/finnish.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/punkt/PY3/french.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/punkt/PY3/german.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/punkt/PY3/greek.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/punkt/PY3/italian.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/punkt/PY3/norwegian.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/punkt/PY3/polish.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/punkt/PY3/portuguese.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/punkt/PY3/russian.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/punkt/PY3/slovene.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/punkt/PY3/spanish.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/punkt/PY3/swedish.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/punkt/PY3/turkish.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/punkt/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/punkt/czech.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/punkt/danish.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/punkt/dutch.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/punkt/english.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/punkt/estonian.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/punkt/finnish.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/punkt/french.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/punkt/german.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/punkt/greek.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/punkt/italian.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/punkt/norwegian.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/punkt/polish.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/punkt/portuguese.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/punkt/russian.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/punkt/slovene.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/punkt/spanish.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/punkt/swedish.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/punkt/turkish.pickle" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Python Script" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="20xZEaA8ZTRHqIHFsxHj7iH5MMt" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2UslS86TlSgL6sAVX0zYeuS4Z89" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\GH\Article_Gen" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Python.app">
-    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/GitHub/Article_Gen"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="streamlit_app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Article_Gen" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -47,28 +88,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="article_generator_rss" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Article_Gen" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/article_generator_rss.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/streamlit_app.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -79,19 +99,18 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.app" />
-        <item itemvalue="Python.article_generator_rss" />
+        <item itemvalue="Python.streamlit_app" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="56b573e0-e4a5-48f0-abcc-33c098dd4537" name="Default Changelist" comment="" />
-      <created>1636988088109</created>
+      <changelist id="ed843b3c-4a2a-4eab-a24b-bcf84dc3cf1c" name="Changes" comment="" />
+      <created>1693736165292</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1636988088109</updated>
+      <updated>1693736165292</updated>
     </task>
     <servers />
   </component>
