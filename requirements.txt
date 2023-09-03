@@ -1,4 +1,3 @@
-requests==2.25.1
 starkbank-ecdsa==1.1.0
 streamlit
 newspaper3k
