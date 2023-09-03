@@ -4,56 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed843b3c-4a2a-4eab-a24b-bcf84dc3cf1c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CONSTANT.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/a.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/article_generator_rss.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/article_generator_scraper.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/articles_management.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/punkt/PY3/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/punkt/PY3/czech.pickle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/punkt/PY3/danish.pickle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/punkt/PY3/dutch.pickle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/punkt/PY3/english.pickle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/punkt/PY3/estonian.pickle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/punkt/PY3/finnish.pickle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/punkt/PY3/french.pickle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/punkt/PY3/german.pickle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/punkt/PY3/greek.pickle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/punkt/PY3/italian.pickle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/punkt/PY3/norwegian.pickle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/punkt/PY3/polish.pickle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/punkt/PY3/portuguese.pickle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/punkt/PY3/russian.pickle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/punkt/PY3/slovene.pickle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/punkt/PY3/spanish.pickle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/punkt/PY3/swedish.pickle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/punkt/PY3/turkish.pickle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/punkt/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/punkt/czech.pickle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/punkt/danish.pickle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/punkt/dutch.pickle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/punkt/english.pickle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/punkt/estonian.pickle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/punkt/finnish.pickle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/punkt/french.pickle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/punkt/german.pickle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/punkt/greek.pickle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/punkt/italian.pickle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/punkt/norwegian.pickle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/punkt/polish.pickle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/punkt/portuguese.pickle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/punkt/russian.pickle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/punkt/slovene.pickle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/punkt/spanish.pickle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/punkt/swedish.pickle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/punkt/turkish.pickle" beforeDir="false" />
-    </list>
+    <list default="true" id="ed843b3c-4a2a-4eab-a24b-bcf84dc3cf1c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
